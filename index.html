@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Assessment3 Practice</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div id="body">
+    <body>
+      <div id="text">
+        <h1>A3 Practice</h1>
+
+        <p id="demo"></p>
+
+        <div id="sneak" class="sneak">
+          <h2>Sneaky deaky</h2>
+          <img
+            src="https://media.giphy.com/media/bYLkhKdHXVWyk/giphy.gif"
+            alt="sneaky"
+          />
+        </div>
+
+        <h3>
+          Okay, I haven't been practicing as much as I should have been, so
+          let's try this.
+        </h3>
+      </div>
+      <!-- Calling functions on click - Styling Buttons -->
+      <button onclick="turnBlue()">
+        Click Here to change the text color to blue
+      </button>
+      <button onclick="turnRed()">
+        Click here to change the background color to red
+      </button>
+      <button onclick="revert()">
+        Click here to change all colors back to normal
+      </button>
+
+      <!-- Add event listener - Date Display -->
+      <button id="date">
+        Click here to display the date
+      </button>
+
+      <!-- Removing element from the DOM -->
+      <button onclick="reveal()">
+        Click here for a friend
+      </button>
+
+      <button onclick="remove()">Click here to BANISH THE BOY</button>
+
+      <!-- Modal -->
+      <button id="modal-btn">Click here for a surprise</button>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <p>
+            Oh hey. Y'all wanna play a
+            <a href="https://wayaway-jtm.github.io/MemoryGame/">card game</a>?
+          </p>
+        </div>
+      </div>
+
+      <script src="script.js" async defer></script>
+    </body>
+  </div>
+</html>
