@@ -31,6 +31,12 @@ function reveal(){
 function remove(){
     let elem = document.querySelector('#sneak');
     elem.parentNode.removeChild(elem);
+
+    /* if (sneak){
+      let elem = document.querySelector('#sneak');
+      elem.parentNode.removeChild(elem);
+    } else {
+      */
 }
 
 
